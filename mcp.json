@@ -1,0 +1,51 @@
+{
+  "mcpServers": {
+    "al-razi-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "TITAN_PROTOCOL": "RAZI",
+        "TARGET_CHAIN": "Solana",
+        "FIPS_203_LEVEL": "ML-KEM-768",
+        "FIPS_204_LEVEL": "ML-DSA-65"
+      },
+      "tools": [
+        {
+          "name": "differentiate_variola_morbilli",
+          "description": "Computes symptom differential weights between smallpox and measles clinical phenotypes",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "symptom_vector": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "symptom_vector"
+            ]
+          }
+        },
+        {
+          "name": "model_alembic_hydrocarbon_distillation",
+          "description": "Simulates kerosene fractional distillation curves and solvent purity indices",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "temperature_c": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "temperature_c"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
