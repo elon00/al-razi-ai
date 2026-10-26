@@ -1,0 +1,14 @@
+{
+  "project": "al-razi-ai",
+  "network": "Solana Devnet",
+  "cluster_url": "https://api.devnet.solana.com",
+  "mint_address": "3JapRLMcg6SSmLTJDJzFnRBnd1hzY3cEA9kqej4DnGJf",
+  "vault_account": "ELohQcy7Y1wVSWKZXDRFV8eXVuRmgm3ETP7Pn1GZctfw",
+  "initial_supply": 1000000,
+  "decimals": 9,
+  "creation_tx": "3jBXHJicjDCG7HrkWEeU3Rzp9FeFfUtGGXmKz1GPxTcMrncGKxRuoXJeHbiVuZV9qvbrB9Lyjtfxu282CoQmEzSj",
+  "account_tx": "4EMN8hWagzBVdV1s2VWgXNkbqSZG3xZVAgqnXvtztC7cMPjwCHzvxCm81KFcYtM8VaE3XPcWStjUvrz7iFLFpgo7",
+  "mint_tx": "58FihPJ4Xcopdn9A43QfukXLu7V66tQNKwHYXirFq729X94sXJSAhXpbG9qktUJLXKxHRfhj921DLULpyyZrXToz",
+  "solana_explorer_mint": "https://explorer.solana.com/address/3JapRLMcg6SSmLTJDJzFnRBnd1hzY3cEA9kqej4DnGJf?cluster=devnet",
+  "timestamp": "2026-10-26 16:15:27 UTC"
+}
